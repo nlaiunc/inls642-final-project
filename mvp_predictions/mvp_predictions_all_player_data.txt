@@ -1,0 +1,111 @@
+--- Top Predicted MVP Candidates for 2022 ---
+                      Player  Predicted_Share  Share  Predicted_Rank  \
+10533          Nikola JokiÄ         0.839235  0.875               1   
+5115   Giannis Antetokounmpo         0.452047  0.595               2   
+7058             Joel Embiid         0.296759  0.706               3   
+6574            Jayson Tatum         0.089161  0.043               4   
+3441           DeMar DeRozan         0.087447  0.001               5   
+9001           Luka DonÄiÄ         0.080951  0.146               6   
+5820               Ja Morant         0.080560  0.010               7   
+12688          Stephen Curry         0.062507  0.004               8   
+8751            LeBron James         0.034495  0.001               9   
+2391              Chris Paul         0.033440  0.002              10   
+
+       Actual_Rank     Error  
+10533          1.0 -0.035765  
+5115           3.0 -0.142953  
+7058           2.0 -0.409241  
+6574           6.0  0.046161  
+3441          10.0  0.086447  
+9001           5.0 -0.065049  
+5820           7.0  0.070560  
+12688          8.0  0.058507  
+8751          10.0  0.033495  
+2391           9.0  0.031440  
+
+--- Top Predicted MVP Candidates for 2023 ---
+                        Player  Predicted_Share  Share  Predicted_Rank  \
+10534            Nikola JokiÄ         0.912974  0.674               1   
+3967          Domantas Sabonis         0.449138  0.027               2   
+6913              Jimmy Butler         0.284699  0.003               3   
+7059               Joel Embiid         0.210853  0.915               4   
+9002             Luka DonÄiÄ         0.204532  0.010               5   
+12371  Shai Gilgeous-Alexander         0.193877  0.046               6   
+6575              Jayson Tatum         0.125775  0.280               7   
+4041          Donovan Mitchell         0.097653  0.030               8   
+5986             Jalen Brunson         0.075637  0.001               9   
+12689            Stephen Curry         0.075293  0.005              10   
+
+       Actual_Rank     Error  
+10534          2.0  0.238974  
+3967           7.0  0.422138  
+6913          10.0  0.281699  
+7059           1.0 -0.704147  
+9002           8.0  0.194532  
+12371          5.0  0.147877  
+6575           4.0 -0.154225  
+4041           6.0  0.067653  
+5986          12.0  0.074637  
+12689          9.0  0.070293  
+
+--- Top Predicted MVP Candidates for 2024 ---
+                        Player  Predicted_Share  Share  Predicted_Rank  \
+10535            Nikola JokiÄ         1.030021  0.935               1   
+12372  Shai Gilgeous-Alexander         0.826502  0.646               2   
+5117     Giannis Antetokounmpo         0.595187  0.194               3   
+9003             Luka DonÄiÄ         0.446025  0.572               4   
+3968          Domantas Sabonis         0.267046  0.003               5   
+6576              Jayson Tatum         0.185174  0.087               6   
+5987             Jalen Brunson         0.178671  0.143               7   
+7060               Joel Embiid         0.023221  0.000               8   
+5822                 Ja Morant         0.019701  0.000               9   
+747            Anthony Edwards         0.017750  0.018              10   
+
+       Actual_Rank     Error  
+10535          1.0  0.095021  
+12372          2.0  0.180502  
+5117           4.0  0.401187  
+9003           3.0 -0.125975  
+3968           8.0  0.264046  
+6576           6.0  0.098174  
+5987           5.0  0.035671  
+7060          10.0  0.023221  
+5822          10.0  0.019701  
+747            7.0 -0.000250  
+
+--- Top Predicted MVP Candidates for 2025 ---
+                        Player  Predicted_Share  Share  Predicted_Rank  \
+12373  Shai Gilgeous-Alexander         0.956543  0.913               1   
+10536             Nikola Jokić         0.871651  0.787               2   
+5118     Giannis Antetokounmpo         0.487428  0.470               3   
+6577              Jayson Tatum         0.172735  0.311               4   
+13509               Trae Young         0.077582  0.000               5   
+5988             Jalen Brunson         0.048397  0.001               6   
+748            Anthony Edwards         0.036876  0.012               7   
+8754              LeBron James         0.023520  0.016               8   
+14421          Zion Williamson         0.019665  0.000               9   
+4043          Donovan Mitchell         0.018002  0.074              10   
+
+       Actual_Rank     Error  
+12373          1.0  0.043543  
+10536          2.0  0.084651  
+5118           3.0  0.017428  
+6577           4.0 -0.138265  
+13509         13.0  0.077582  
+5988          10.0  0.047397  
+748            7.0  0.024876  
+8754           6.0  0.007520  
+14421         13.0  0.019665  
+4043           5.0 -0.055998  
+
+--- Model Accuracy (Spearman Rank Correlation) ---
+2022: 0.4128
+2023: 0.3487
+2024: 0.3442
+2025: 0.3193
+
+--- Model Accuracy (Spearman Rank Correlation) (Only Including Top 10 Predicted Shares) ---
+2022: 0.7964
+2023: 0.3939
+2024: 0.8389
+2025: 0.6748
